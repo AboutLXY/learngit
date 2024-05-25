@@ -2,8 +2,12 @@
 Git安装完之后，需要做最后一步配置，如果你没有做这项配置，是没有git公钥和私钥的，而上传代码到远程仓库的时候需要秘钥进行验证是否本人上传的，想要创建可以使用下面的方法：
 
 打开git bash，分别执行以下两句命令
-git config --global user.name “用户名”
-git config --global user.email “邮箱”
+git config --global user.name "# learn git
+Git安装完之后，需要做最后一步配置，如果你没有做这项配置，是没有git公钥和私钥的，而上传代码到远程仓库的时候需要秘钥进行验证是否本人上传的，想要创建可以使用下面的方法：
+
+打开git bash，分别执行以下两句命令
+git config --global user.name "AboutLXY"
+git config --global user.email "949845685@qq.com"
 
 
 # ssh配置
@@ -20,9 +24,10 @@ git config --global user.email “邮箱”
 git init
 git add .
 git commit -am "init gonow"
-git remote add origin git@github.com:zyb2016/gonow.git
+git remote add origin git@github.com:AboutLXY/beego_demo.git
 git push -u origin master
 
 # 版本管理
 git tag v1.0.0     // 创建本地tag
-git push --tags
+git push --tags"
+
