@@ -32,3 +32,16 @@ git push -u origin master
 git tag v1.0.0     // 创建本地tag
 git push --tags"
 
+
+或者在命令行上创建一个新的存储库
+echo "# api_beego_demo" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin git@github.com:AboutLXY/api_beego_demo.git
+ git push -u origin main
+或者从命令行推送现有的存储库
+git remote add origin git@github.com:AboutLXY/api_beego_demo.git
+ git branch -M main 
+git push -u origin main
